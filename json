@@ -8,48 +8,48 @@
       "name": "Example Pillar",
       "questions": [
         {
-          "questionId": "example-question",
+          "id": "example-question",
           "title": "Do you follow example best practices?",
           "description": "Assess whether your team follows example standards and controls.",
           "choices": [
             {
-              "choiceId": "not-followed",
+              "id": "not-followed",
               "title": "We do not follow this practice",
               "description": "This is not currently implemented"
             },
             {
-              "choiceId": "partially-followed",
+              "id": "partially-followed",
               "title": "We partially follow this practice",
               "description": "Some controls are implemented"
             },
             {
-              "choiceId": "fully-followed",
+              "id": "fully-followed",
               "title": "We fully follow this practice",
               "description": "This practice is fully integrated into our processes"
             }
           ],
           "riskRules": [
             {
-              "choiceId": "not-followed",
+              "id": "not-followed",
               "risk": "HIGH"
             },
             {
-              "choiceId": "partially-followed",
+              "id": "partially-followed",
               "risk": "MEDIUM"
             },
             {
-              "choiceId": "fully-followed",
+              "id": "fully-followed",
               "risk": "NONE"
             }
           ],
           "improvementPlans": [
             {
-              "choiceId": "not-followed",
+              "id": "not-followed",
               "displayText": "Start implementing this best practice by establishing policy and training.",
               "url": "https://example.com/start-best-practice"
             },
             {
-              "choiceId": "partially-followed",
+              "id": "partially-followed",
               "displayText": "Continue by auditing implementation and automating enforcement.",
               "url": "https://example.com/improve-best-practice"
             }
